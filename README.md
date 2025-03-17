@@ -17,28 +17,28 @@ Description: Contains customer data, loan details, and credit bureau records.
 
 1. Data Cleaning: Handled missing values and outliers.
 2. Exploratory Data Analysis (EDA):
-  Univariate and bivariate analysis.
-  Distribution analysis of key features.
+  i. Univariate and bivariate analysis.
+  ii. Distribution analysis of key features.
 3. Feature Engineering:
-  Created interaction terms.
+  i. Created interaction terms.
 4.Feature Selection:
-  Used VIF to remove multicollinearity.
-  Applied WOE/IV for feature importance.
+  i. Used VIF to remove multicollinearity.
+  ii. Applied WOE/IV for feature importance.
 5. Handling Imbalanced Data:
-  Used SMOTETomek to balance classes.
+  i. Used SMOTETomek to balance classes.
 6. Model Training:
-  Trained a Logistic Regression model.
+  i. Trained a Logistic Regression model.
 7. Model Evaluation:
-  Used ROC-AUC, KS, and Gini metrics.
-  Achieved 0.94 recall.
+  i. Used ROC-AUC, KS, and Gini metrics.
+  ii. Achieved 0.94 recall.
 
 ### Model Performance
 
-Metric      Score
-Recall      0.94
-ROC-AUC     0.98
-KS Stat     0.86
-Gini Coeff  0.96
+   Metric      Score
+1. Recall      0.94
+2. ROC-AUC     0.98
+3. KS Stat     0.86
+4. Gini Coeff  0.96
 
 ### Deployment
 
